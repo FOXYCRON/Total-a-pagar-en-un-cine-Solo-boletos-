@@ -1,0 +1,24 @@
+    /* Programa que obtiene el total a pagar en un cine (Solo Boletos) */
+     #include<stdio.h>
+     #include<conio.h>
+
+     int np, cb;
+     float tp;
+     main()
+     {
+         printf(" Cinema Mochis \n \n");
+         printf(" N%cmero de personas: ", 163); scanf("%d", &np);
+         printf("\n Costo del boleto: "); scanf("%d", &cb);
+
+         tp=np*cb;
+
+         printf("\n \n Despliegue Informacion");
+         printf("\n N%cmero de personas: %d", 163, np);
+         printf("\n Costo del boleto: %d", cb);
+         printf("\n El total a pagar es: %.2f", tp);
+
+
+         getch();
+
+
+     }
